@@ -483,3 +483,23 @@ process.on("unhandledRejection", (err, promise) => {
   }
 }
 ```
+
+## Running the Application
+
+1. Start MongoDB (if tunnning locally):
+
+```bash
+mongod
+```
+
+2. Start the development server
+
+```bash
+npm run dev
+```
+
+3. The API will be running at
+
+```
+http://localhost:3000
+```
