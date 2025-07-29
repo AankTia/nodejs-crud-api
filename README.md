@@ -27,6 +27,7 @@ npm install -D nodemon
 ```
 
 ### Project Structure
+
 ```
 nodejs-crud-api/
 ├── controllers/
@@ -43,4 +44,24 @@ nodejs-crud-api/
 ├── .gitignore
 ├── server.js
 └── package.json
+```
+
+## Environment Configuration
+
+### `.env`
+
+```env
+PORT=3000
+MONGODB_URI=mongodb://localhost:27017/crud_api
+NODE_ENV=development
+```
+
+### `.gitignore`
+
+```
+node_modules/
+.env
+.DS_Store
+logs/
+*.log
 ```
