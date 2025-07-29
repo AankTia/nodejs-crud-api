@@ -25,3 +25,22 @@ npm install express mongoose dotenv cors
 # Development dependencies
 npm install -D nodemon
 ```
+
+### Project Structure
+```
+nodejs-crud-api/
+├── controllers/
+│   └── userController.js
+├── models/
+│   └── User.js
+├── routes/
+│   └── userRoutes.js
+├── middleware/
+│   └── errorHandler.js
+├── config/
+│   └── database.js
+├── .env
+├── .gitignore
+├── server.js
+└── package.json
+```
