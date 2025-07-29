@@ -8,10 +8,20 @@ This tutorial will guide you through building a complete CRUD (Create, Read, Upd
 - MongoDB installed locally or MongoDB Atlas account
 - Postman or similar API testing tool (optional)
 
-## Project Setup
+### Project Setup
 
 ```bash
 mkdir nodejs-crud-api
 cd nodejs-crud-api
 npm init -y
+```
+
+### Install Dependencies
+
+```bash
+# Core dependencies
+npm install express mongoose dotenv cors
+
+# Development dependencies
+npm install -D nodemon
 ```
