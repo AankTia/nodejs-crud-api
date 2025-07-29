@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-crud-api",
+  "version": "1.0.0",
+  "description": "This tutorial will guide you through building a complete CRUD (Create, Read, Update, Delete) API using Node.js, Express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
